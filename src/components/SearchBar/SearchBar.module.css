@@ -1,0 +1,38 @@
+.header {
+    background-color: #3436a0;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.form {
+    display: inline-block;
+}
+
+.input {
+    height: 40px;
+    width: 300px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    color: rgb(32, 32, 32);
+    border: none;
+    cursor: pointer;
+}
